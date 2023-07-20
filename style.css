@@ -1,0 +1,54 @@
+#section1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+ 
+}
+
+#logostar {
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#h1 {
+    color: aqua;
+}
+
+#par {
+display: flex;
+padding: 20px;
+}
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.country {
+    width: 300px;
+    border: 1px solid gray ;
+    border-radius: 10px ;
+    margin: 10px;
+}
+.country:hover {
+    box-shadow: 5px 5px 30px 10px rgb(194, 148, 148);
+}
+.country img {
+    width: 300px;
+}
+
+.country-name {
+    display: flex;
+    justify-content: space-around ;
+}
+.country-name button {
+    background-color: rgb(0, 153, 255);
+    height: 30px;
+    color: antiquewhite;
+    margin-bottom: 30px;
+}
+h6 {
+    margin: 5px ;
+}
